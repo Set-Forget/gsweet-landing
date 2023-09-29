@@ -8,6 +8,7 @@ export default function Faqs() {
     let bgColor = "white";
     let textColor = "[#DA581A]"; 
     let title = "FAQ'S";
+    let titleColor = "white";
     let sectionClassList = "flex flex-wrap"
     let faqsArray = [
         {
@@ -36,9 +37,9 @@ export default function Faqs() {
         },
     ]
     return (
-        <section className="max-w-full bg-[#DA581A] px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
-            <BoilerSection title={title} spanTitle={""} sectionClassList={sectionClassList}>
-                <div className='flex flex-wrap justify-center items-center gap-5'>
+        <section className="max-w-full bg-[#DA581A] px-6 py-24 sm:px-6 sm:py-12">
+            <BoilerSection title={title} spanTitle={""} sectionClassList={sectionClassList} titleColor={titleColor}>
+                <div className='flex flex-wrap justify-center items-center gap-5 my-4'>
                     {faqsArray.map(item => <FaqsCard question={item.question}></FaqsCard>)}
                 </div>
             </BoilerSection>

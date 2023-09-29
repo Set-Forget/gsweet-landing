@@ -5,7 +5,7 @@ export default function FeatureListCard({title, spanTitle, firstParagraph, secon
     return (
     <div className={`flex ${flexDirection} justify-center items-center w-3/4 my-8`}>
         <img className='w-5/12'  src="src\assets\MacBook Pro 14.png" alt="" />
-    <div className='flex flex-col w-1/2'>
+    <div className='flex flex-col w-1/2 mx-8'>
     <h2 className="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">
         {title} <span className='text-[#DA581A]'>{spanTitle}</span>
     </h2>
