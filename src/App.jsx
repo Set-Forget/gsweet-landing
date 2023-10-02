@@ -14,10 +14,10 @@ export default function App() {
         <Header />
         <div className='flex-1'>
           <Routes>
-            <Route path="/gsweet/" element={<Main />} />
-            <Route path="/gsweet/privacy-policy" element={<PrivacyPolicy />} />
-            <Route path="/gsweet/tc" element={<TermsAndConditions />} />
-            <Route path="/gsweet/google-disclosure" element={<GoogleDisclosure />} />
+            <Route path="/gsweet-landing/" element={<Main />} />
+            <Route path="/gsweet-landing/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/gsweet-landing/tc" element={<TermsAndConditions />} />
+            <Route path="/gsweet-landing/google-disclosure" element={<GoogleDisclosure />} />
           </Routes>
         </div>
         <Footer />
