@@ -11,7 +11,7 @@ export default function FaqsCard({ question, answer }) {
     };
 
     return (
-        <div className='w-5/12 p-4 border-white border-2 rounded-2xl flex flex-col relative'>
+        <div className='w-5/12 p-4 border-white border-2 rounded-2xl flex flex-col relative grow-1'>
             <div className='flex flex-row justify-between items-center mb-4'>
                 <p className='text-white'>{question}</p>
                 <svg onClick={toggleOpen} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

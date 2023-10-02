@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import ButtonFreeTrial from '../ButtonFreeTrial/ButtonFreeTrial';
 import UserReviewCard from '../UserReviewCard/userReviewCard';
+import imgSarah from '/src/assets/sarah2.jpg'
+import imgElena from '/src/assets/elena.jpg'
+import imgRaj from '/src/assets/raj2.jpg'
 
 export default function UserReviews() {
     let bgColor = "[#DA581A]";
@@ -9,14 +12,14 @@ export default function UserReviews() {
         {
             cardColor: "white",
             textColor : "black",
-            url: "",
+            url: imgSarah,
             name: "Ms. Sarah Thompson, High School Teacher",
             review: "Gsweet has transformed my classroom experience. Now, I can easily track each student's participation and guide our discussions more effectively. A game-changer for online learning!"
         },
         {
             cardColor: "[#DA581A]",
             textColor : "white",
-            url: "",
+            url: imgElena,
             name: "Elena Rodriguez, Tutor",
             review: "Text analysis saves me so much time. I can quickly grasp the main themes of our discussions and ensure we cover all essential points. Highly recommend Gsweet to all educators!"
 
@@ -24,7 +27,7 @@ export default function UserReviews() {
         {
             cardColor: "white",
             textColor : "black",
-            url: "",
+            url: imgRaj,
             name: "Dr. Raj Mehta, College Professor",
             review: "The AI-generated questions are a brilliant feature. They often lead to deeper discussions and help students explore topics from different angles."
 
@@ -38,7 +41,6 @@ export default function UserReviews() {
             <div className='flex flex-row gap-5 my-12 w-5/6'>
                 {reviewsArray.map(item => <UserReviewCard cardColor={item.cardColor} textColor={item.textColor} url={item.url} name={item.name} review={item.review}></UserReviewCard> )}
             </div>
-          <ButtonFreeTrial bgColor={bgColor} textColor={textColor}></ButtonFreeTrial>
         <div className='bg-[#FAE7DE] flex flex-col justify-center items-center p-8 rounded-lg w-5/6 my-12'>
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center">
         Unleash the Full Potential of Google Docs with Gsweet.

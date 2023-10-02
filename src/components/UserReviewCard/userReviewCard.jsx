@@ -11,7 +11,7 @@ export default function UserReviewCard({cardColor, textColor, url ,name, review}
             <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-900">{ review}</p>
             <img
                 className="inline-block h-14 w-14 rounded-full my-8"
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                src={url}
                 alt=""
             />
             <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">{name}</h3>
