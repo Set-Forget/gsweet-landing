@@ -11,26 +11,26 @@ export default function FeatureList() {
     const featureListData = [
         {title: "Session",
         spanTitle: "Tracking",
-        firstParagraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text    ",
-        secondParagraph: " It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum  ",
+        firstParagraph: "With Gsweet, monitor and recognize each student's collaboration in a Google Docs class. Celebrate their contributions, ensuring every voice is heard and valued, while fostering a more engaged and inclusive learning environment. ",
+        secondParagraph: "  ",
         flexDirection: "flex-row"
         },
         {title: "Leader",
         spanTitle: "board",
-        firstParagraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text    ",
-        secondParagraph: " It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum  ",
+        firstParagraph: "Foster healthy competition and motivation among participants. Track individual contributions and scores, allowing educators to recognize and reward active participation.",
+        secondParagraph: "",
         flexDirection: "flex-row-reverse"
         },
         {title: "Text",
         spanTitle: "Analysis",
-        firstParagraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text    ",
-        secondParagraph: " It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum  ",
+        firstParagraph: "Dive deep into the content with Gsweet's advanced text analysis. Summarize key words and themes, and visualize connections amongst concepts, making it easier for educators to understand and guide discussions.",
+        secondParagraph: " ",
         flexDirection: "flex-row"
     },
         {title: "Generate Questions",
         spanTitle: "with AI",
-        firstParagraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text    ",
-        secondParagraph: " It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum  ",
+        firstParagraph: "Enhance discussions and exploration with AI-powered question recommendations. Gsweet's AI analyzes the content and suggests follow-up questions, ensuring comprehensive understanding and stimulating further exploration.",
+        secondParagraph: " ",
         flexDirection: "flex-row-reverse"
     
     }
