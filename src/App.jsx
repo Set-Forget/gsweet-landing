@@ -14,6 +14,7 @@ export default function App() {
         <Header />
         <div className='flex-1'>
           <Routes>
+            <Route path="/" element={<Main />} />
             <Route path="/gsweet-landing/" element={<Main />} />
             <Route path="/gsweet-landing/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/gsweet-landing/tc" element={<TermsAndConditions />} />
