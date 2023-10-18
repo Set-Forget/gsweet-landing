@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, HashRouter } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Main from './components/Main/main';
 import Footer from './components/Footer/footer';
@@ -9,7 +9,7 @@ import GoogleDisclosure from './components/GoogleDisclosure/GoogleDisclosure';
 
 export default function App() {
   return (
-    <Router>
+    <HashRouter>
       <div className="App flex flex-col">
         <Header />
         <div className='flex-1'>
@@ -22,7 +22,7 @@ export default function App() {
         </div>
         <Footer />
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
