@@ -11,7 +11,7 @@ export default function FeatureList() {
     const featureListData = [
         {title: "Session",
         spanTitle: "Tracking",
-        firstParagraph: "With Gsweet, monitor and recognize each student's collaboration in a Google Docs class. Celebrate their contributions, ensuring every voice is heard and valued, while fostering a more engaged and inclusive learning environment. ",
+        firstParagraph: "With Gliddr, monitor and recognize each student's collaboration in a Google Docs class. Celebrate their contributions, ensuring every voice is heard and valued, while fostering a more engaged and inclusive learning environment. ",
         secondParagraph: "  ",
         flexDirection: "flex-row"
         },
@@ -23,13 +23,13 @@ export default function FeatureList() {
         },
         {title: "Text",
         spanTitle: "Analysis",
-        firstParagraph: "Dive deep into the content with Gsweet's advanced text analysis. Summarize key words and themes, and visualize connections amongst concepts, making it easier for educators to understand and guide discussions.",
+        firstParagraph: "Dive deep into the content with Gliddr's advanced text analysis. Summarize key words and themes, and visualize connections amongst concepts, making it easier for educators to understand and guide discussions.",
         secondParagraph: " ",
         flexDirection: "flex-row"
     },
         {title: "Generate Questions",
         spanTitle: "with AI",
-        firstParagraph: "Enhance discussions and exploration with AI-powered question recommendations. Gsweet's AI analyzes the content and suggests follow-up questions, ensuring comprehensive understanding and stimulating further exploration.",
+        firstParagraph: "Enhance discussions and exploration with AI-powered question recommendations. Gliddr's AI analyzes the content and suggests follow-up questions, ensuring comprehensive understanding and stimulating further exploration.",
         secondParagraph: " ",
         flexDirection: "flex-row-reverse"
     

@@ -28,9 +28,9 @@ const PrivacyPolicy = () => {
                             <br />
                             Affiliate means an entity that controls, is controlled by or is under common control with a party, where &quot;control&quot; means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.
                             <br />
-                            Application means the software program provided by the Company downloaded by You on any electronic device, named Gsweet
+                            Application means the software program provided by the Company downloaded by You on any electronic device, named Gliddr
                             <br />
-                            Company (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Gsweet.
+                            Company (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Gliddr.
                             <br />
                             Country refers to: United Kingdom
                             <br />
@@ -107,24 +107,24 @@ const PrivacyPolicy = () => {
                             <br />
                  
                             <br/><br/>
-                            <h2 id="addOnFunctionality">About Gsweet Add-on</h2>
+                            <h2 id="addOnFunctionality">About Gliddr Add-on</h2>
                             <p>
-                                Gsweet is a Google Docs add-on designed to enhance productivity by offering summarization and graph creation services using OpenAI's API. This involves processing the text content from your Google Docs documents to provide these services efficiently and effectively.
+                                Gliddr is a Google Docs add-on designed to enhance productivity by offering summarization and graph creation services using OpenAI's API. This involves processing the text content from your Google Docs documents to provide these services efficiently and effectively.
                             </p>
                             <br/>
                             <h2 id="dataCollected">Types of Data Collected</h2>
                             <p>
-                                In addition to Personal Data as mentioned earlier, Gsweet specifically collects the text you input in Google Docs. This data is used exclusively for the purpose of providing summarization and graph creation services, involving sending this data to OpenAI's API for processing.
+                                In addition to Personal Data as mentioned earlier, Gliddr specifically collects the text you input in Google Docs. This data is used exclusively for the purpose of providing summarization and graph creation services, involving sending this data to OpenAI's API for processing.
                             </p>
                             <br/>
                             <h2 id="userConsent">User Consent</h2>
                             <p>
-                                Gsweet obtains user consent implicitly through the use of our services. By interacting with our add-on to request summarization or graph creation, you acknowledge and consent to the collection and processing of your text data. This process is crucial for the functionality of our services and is communicated to users upon their engagement with these specific features.
+                                Gliddr obtains user consent implicitly through the use of our services. By interacting with our add-on to request summarization or graph creation, you acknowledge and consent to the collection and processing of your text data. This process is crucial for the functionality of our services and is communicated to users upon their engagement with these specific features.
                             </p>
                             <br/>
                             <h2 id="useOfData">Use of Your Personal Data</h2>
                             <p>
-                                The primary use of the text data collected from Google Docs is to enable the summarization and graph creation functionalities of Gsweet. This involves processing the data through OpenAI's API, where it is used to generate summaries and create graphs based on the content of your documents.
+                                The primary use of the text data collected from Google Docs is to enable the summarization and graph creation functionalities of Gliddr. This involves processing the data through OpenAI's API, where it is used to generate summaries and create graphs based on the content of your documents.
                             </p>
                             <br/>
                             <h3>Data Sharing with OpenAI's API</h3>
@@ -199,7 +199,7 @@ const PrivacyPolicy = () => {
                             Contact Us
 
                             <p>
-                                If you have any questions or concerns regarding our privacy practices, data handling, or the specifics of how Gsweet processes your data, please don't hesitate to contact us at: <a href="mailto:thepatrickdempsey@gmail.com">thepatrickdempsey@gmail.com</a>.
+                                If you have any questions or concerns regarding our privacy practices, data handling, or the specifics of how Gliddr processes your data, please don't hesitate to contact us at: <a href="mailto:thepatrickdempsey@gmail.com">thepatrickdempsey@gmail.com</a>.
                             </p>
                         </span>
                     </p>

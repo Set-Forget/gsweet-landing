@@ -14,14 +14,14 @@ export default function UserReviews() {
             textColor : "black",
             url: imgSarah,
             name: "Ms. Sarah Thompson, High School Teacher",
-            review: "Gsweet has transformed my classroom experience. Now, I can easily track each student's participation and guide our discussions more effectively. A game-changer for online learning!"
+            review: "Gliddr has transformed my classroom experience. Now, I can easily track each student's participation and guide our discussions more effectively. A game-changer for online learning!"
         },
         {
             cardColor: "[#DA581A]",
             textColor : "white",
             url: imgElena,
             name: "Elena Rodriguez, Tutor",
-            review: "Text analysis saves me so much time. I can quickly grasp the main themes of our discussions and ensure we cover all essential points. Highly recommend Gsweet to all educators!"
+            review: "Text analysis saves me so much time. I can quickly grasp the main themes of our discussions and ensure we cover all essential points. Highly recommend Gliddr to all educators!"
 
         },
         {
@@ -43,7 +43,7 @@ export default function UserReviews() {
             </div>
         <div className='bg-[#FAE7DE] flex flex-col justify-center items-center p-8 rounded-lg w-5/6 my-12'>
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center">
-        Unleash the Full Potential of Google Docs with Gsweet.
+        Unleash the Full Potential of Google Docs with Gliddr.
         </h2>
         <p className="mx-auto my-6 max-w-xl text-lg leading-8 text-black-600">
         Pay once and Launch as many as needed.          </p>

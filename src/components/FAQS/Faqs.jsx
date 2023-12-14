@@ -12,28 +12,28 @@ export default function Faqs() {
     let sectionClassList = "flex flex-wrap"
     let faqsArray = [
         {
-            question: "How do I install Gsweet on my Google Docs?",
-            answer: "To use Gsweet, you'll first need to install our Google Chrome extension. Once installed, you can then add Gsweet from the Google Docs Add-On store. After installation, log in through the extension to access all the features seamlessly within your Google Docs."
+            question: "How do I install Gliddr on my Google Docs?",
+            answer: "To use Gliddr, you'll first need to install our Google Chrome extension. Once installed, you can then add Gliddr from the Google Docs Add-On store. After installation, log in through the extension to access all the features seamlessly within your Google Docs."
         },
         {
-            question: "Is Gsweet suitable for all grade levels?",
-            answer: "Absolutely! Gsweet is designed to be versatile, catering to educators and students across various grade levels, making collaborative learning more effective and insightful."
+            question: "Is Gliddr suitable for all grade levels?",
+            answer: "Absolutely! Gliddr is designed to be versatile, catering to educators and students across various grade levels, making collaborative learning more effective and insightful."
         },
         {
             question: "How does the AI-powered question generation work?",
-            answer: "Gsweet's AI analyzes the content of the document and, based on the themes and keywords, suggests relevant follow-up questions to stimulate discussion and exploration"
+            answer: "Gliddr's AI analyzes the content of the document and, based on the themes and keywords, suggests relevant follow-up questions to stimulate discussion and exploration"
         },
         {
-            question: "Is my data safe with Gsweet?",
-            answer: "Data privacy is our top priority. Gsweet only analyzes the content for the features you use and does not store or share your data externally."
+            question: "Is my data safe with Gliddr?",
+            answer: "Data privacy is our top priority. Gliddr only analyzes the content for the features you use and does not store or share your data externally."
         },
         {
-            question: "Do I need both the Chrome extension and the Add-On to use Gsweet?",
-            answer: "Yes, to fully utilize Gsweet's features, users need to install both the Google Chrome extension and the Google Docs Add-On. This ensures a seamless and integrated experience within Google Docs."
+            question: "Do I need both the Chrome extension and the Add-On to use Gliddr?",
+            answer: "Yes, to fully utilize Gliddr's features, users need to install both the Google Chrome extension and the Google Docs Add-On. This ensures a seamless and integrated experience within Google Docs."
         },
         {
             question: "Do all participants need to install the Chrome extension and the Add-On to join a session?",
-            answer: "Yes, for a complete and integrated experience, all participants need to install both the Gsweet Google Chrome extension and the Google Docs Add-On. This ensures everyone can fully engage with all the features during a session."
+            answer: "Yes, for a complete and integrated experience, all participants need to install both the Gliddr Google Chrome extension and the Google Docs Add-On. This ensures everyone can fully engage with all the features during a session."
         },
     ]
     return (
